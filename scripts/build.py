@@ -2,6 +2,7 @@
 """Build a portable static site; Pages metadata supplies the canonical origin."""
 import argparse
 from html import escape
+import hashlib
 from pathlib import Path
 import shutil
 from urllib.parse import urlsplit
@@ -17,7 +18,11 @@ output = ROOT / '_site'
 if output.exists(): shutil.rmtree(output)
 shutil.copytree(ROOT / 'site', output)
 for path in output.glob('*.html'):
-    path.write_text(path.read_text(encoding='utf-8').replace('{{SITE_URL}}', escape(base, quote=True)), encoding='utf-8')
+    content = path.read_text(encoding='utf-8').replace('{{SITE_URL}}', escape(base, quote=True))
+    for asset in ('styles.css', 'app.js'):
+        version = hashlib.sha256((output / asset).read_bytes()).hexdigest()[:12]
+        content = content.replace('"' + asset + '"', '"' + asset + '?v=' + version + '"')
+    path.write_text(content, encoding='utf-8')
 (output / '.nojekyll').write_text('')
 (output / 'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: ' + base + '/sitemap.xml\n')
 (output / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join('<url><loc>' + escape(base + route) + '</loc></url>' for route in ('/', '/privacy.html', '/pricing.html')) + '</urlset>\n')
