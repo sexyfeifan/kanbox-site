@@ -20,7 +20,7 @@ class Page(HTMLParser):
         if tag=='meta' and a.get('name')=='viewport': self.viewport=True
         if tag=='img' and not a.get('alt'): errors.append(f'{self.path.name}: image without alt')
         if tag=='a' and a.get('target')=='_blank' and 'noopener' not in a.get('rel',''): errors.append(f'{self.path.name}: new-tab link without noopener')
-        for attribute in ('href','src'):
+        for attribute in ('href','src','poster'):
             if a.get(attribute): self.links.append(a[attribute])
 if not ROOT.is_dir(): sys.exit('Build the site first: python3 scripts/build.py')
 pages={}
