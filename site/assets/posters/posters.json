@@ -1,0 +1,218 @@
+[
+  {
+    "number": "01",
+    "title": "品牌主视觉",
+    "alt": "Kanbox 品牌主视觉海报：把散落的喜欢，收进一个盒子。 收藏、整理、重逢。让喜欢有一个自己的位置。",
+    "image": "assets/posters/01-brand.jpg",
+    "thumbnail": "assets/posters/01-brand-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "02",
+    "title": "品牌宣言",
+    "alt": "Kanbox 品牌宣言海报：散落的喜欢，终于有了家。 链接、图片、笔记。先留下，再慢慢整理。",
+    "image": "assets/posters/02-home.jpg",
+    "thumbnail": "assets/posters/02-home-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "03",
+    "title": "使用方法",
+    "alt": "Kanbox 使用方法海报：收藏，整理，然后再遇见。 从一次心动，走向一份自己的内容库。",
+    "image": "assets/posters/03-workflow.jpg",
+    "thumbnail": "assets/posters/03-workflow-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "04",
+    "title": "分享收集",
+    "alt": "Kanbox 分享收集海报：看到喜欢的，顺手收进来。 从系统分享菜单导入链接或图片。",
+    "image": "assets/posters/04-share.jpg",
+    "thumbnail": "assets/posters/04-share-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "05",
+    "title": "剪贴板收集",
+    "alt": "Kanbox 剪贴板收集海报：复制过的链接，由你决定留下。 识别后先确认，让收集保持有意识。",
+    "image": "assets/posters/05-clipboard.jpg",
+    "thumbnail": "assets/posters/05-clipboard-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "06",
+    "title": "链接保留",
+    "alt": "Kanbox 链接保留海报：暂时读不出来，也先留住入口。 解析未完成时，原始链接仍可保留。",
+    "image": "assets/posters/06-link.jpg",
+    "thumbnail": "assets/posters/06-link-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "07",
+    "title": "笔记",
+    "alt": "Kanbox 笔记海报：收藏别人的，也记录自己的。 用文字和本地图片，记下这一刻。",
+    "image": "assets/posters/07-notes.jpg",
+    "thumbnail": "assets/posters/07-notes-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "08",
+    "title": "阅读",
+    "alt": "Kanbox 阅读海报：把一篇好文章，留给安静的时间。 在阅读视图里，重新读完值得留下的文字。",
+    "image": "assets/posters/08-reading.jpg",
+    "thumbnail": "assets/posters/08-reading-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "09",
+    "title": "图片浏览",
+    "alt": "Kanbox 图片浏览海报：一组喜欢，一张张看。 全屏查看图片，让细节有机会被看见。",
+    "image": "assets/posters/09-images.jpg",
+    "thumbnail": "assets/posters/09-images-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "10",
+    "title": "视频播放",
+    "alt": "Kanbox 视频播放海报：好的片段，值得再看一遍。 播放可用的视频；已保存的文件可离线看。",
+    "image": "assets/posters/10-video.jpg",
+    "thumbnail": "assets/posters/10-video-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "11",
+    "title": "Live Photo",
+    "alt": "Kanbox Live Photo海报：有些喜欢，是会动的。 对可用的 Live Photo，支持播放与保存。",
+    "image": "assets/posters/11-live-photo.jpg",
+    "thumbnail": "assets/posters/11-live-photo-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "12",
+    "title": "分享卡片",
+    "alt": "Kanbox 分享卡片海报：喜欢的内容，也可以好好分享。 把内容整理成分享卡片，带给下一个人。",
+    "image": "assets/posters/12-share-cards.jpg",
+    "thumbnail": "assets/posters/12-share-cards-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "13",
+    "title": "标签",
+    "alt": "Kanbox 标签海报：灵感不是乱，只是还没分类。 一个标签，给下一次查找留下一条线索。",
+    "image": "assets/posters/13-tags.jpg",
+    "thumbnail": "assets/posters/13-tags-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "14",
+    "title": "合集",
+    "alt": "Kanbox 合集海报：把零散的收藏，整理成一个主题。 用合集，把相关内容放在一起。",
+    "image": "assets/posters/14-collections.jpg",
+    "thumbnail": "assets/posters/14-collections-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "15",
+    "title": "搜索",
+    "alt": "Kanbox 搜索海报：想起一个词，找回一份喜欢。 用搜索，重新打开收藏里的线索。",
+    "image": "assets/posters/15-search.jpg",
+    "thumbnail": "assets/posters/15-search-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "16",
+    "title": "瀑布流",
+    "alt": "Kanbox 瀑布流海报：不必排得整齐，也能看得舒服。 瀑布流展示，让不同内容有自己的节奏。",
+    "image": "assets/posters/16-waterfall.jpg",
+    "thumbnail": "assets/posters/16-waterfall-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "17",
+    "title": "浏览布局",
+    "alt": "Kanbox 浏览布局海报：同一份收藏，换一种看法。 网格、列表、瀑布流、图库。按场景切换。",
+    "image": "assets/posters/17-layouts.jpg",
+    "thumbnail": "assets/posters/17-layouts-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "18",
+    "title": "星标",
+    "alt": "Kanbox 星标海报：收藏很多，重要的有星标。 给值得常看的内容，留一个醒目的位置。",
+    "image": "assets/posters/18-starred.jpg",
+    "thumbnail": "assets/posters/18-starred-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "19",
+    "title": "随机漫游",
+    "alt": "Kanbox 随机漫游海报：再次遇见，当时的心动。 轻点三次标志，开启一次随机漫游。",
+    "image": "assets/posters/19-rediscover.jpg",
+    "thumbnail": "assets/posters/19-rediscover-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "20",
+    "title": "桌面小组件",
+    "alt": "Kanbox 桌面小组件海报：不用每次打开，喜欢也能看见。 最近、星标、合集或固定内容，按需配置。",
+    "image": "assets/posters/20-widgets.jpg",
+    "thumbnail": "assets/posters/20-widgets-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "21",
+    "title": "作者动态",
+    "alt": "Kanbox 作者动态海报：关注新的内容，保留自己的选择。 作者动态先预览，想留下的再收藏。",
+    "image": "assets/posters/21-authors.jpg",
+    "thumbnail": "assets/posters/21-authors-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "22",
+    "title": "备份",
+    "alt": "Kanbox 备份海报：认真留下的，值得备份一份。 支持导出备份与导入，照顾自己的内容库。",
+    "image": "assets/posters/22-backup.jpg",
+    "thumbnail": "assets/posters/22-backup-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "23",
+    "title": "本地与同步",
+    "alt": "Kanbox 本地与同步海报：先在本地，建立自己的内容库。 支持本地存储；CloudKit 可用时进行同步。",
+    "image": "assets/posters/23-local-library.jpg",
+    "thumbnail": "assets/posters/23-local-library-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  {
+    "number": "24",
+    "title": "收费预告",
+    "alt": "Kanbox 收费预告海报：喜欢的盒子，预计怎样收费？ 预计方案，尚未启用。最终以正式上线为准。",
+    "image": "assets/posters/24-pricing.jpg",
+    "thumbnail": "assets/posters/24-pricing-thumb.webp",
+    "width": 1200,
+    "height": 1600
+  }
+]
